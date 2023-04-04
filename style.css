@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-url) no-repeat top center/cover;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color:var(--text-color);
+}
+
+
+
+#container {
+    width: 360px;
+    margin: auto;
+    padding: 0 24px;
+    
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+    margin-top: 56px;
+}
+
+#profile img {
+    display: block;
+    width: 90px;
+    margin: auto;
+}
+
+#profile p {
+font-weight: 400;
+line-height: 24px;
+margin-top: 8px;
+}
+
+#botao
+{
+    position: relative;
+    width: 64px;
+    margin: 4px auto;
+    
+    
+}
+
+#botao button
+{
+    width: 32px;
+    height: 32px;
+    background: white var(--botao-bg-url) center no-repeat;
+    border-radius: 50%; 
+    border: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+   
+    
+}
+
+#botao span
+{
+    display: block;
+    width: 64px;
+    height: 24px;
+    background: var(--surface-color);
+    border: var(--stroke-color);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 9999px;
+}
+    .light #botao button{
+        right:0;
+    }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 0;
+
+}
+
+ul li a{
+    display: flex;
+    justify-content: center;
+    padding: 16px 16px;
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+ul li a:hover{
+    background: var(--surface-hover);
+    border: 1.5px solid var(--text-color);
+    backdrop-filter: blur(4px);
+}
+
+#links {
+display: flex;
+justify-content: center;   
+gap: 10px; 
+font-size: 24px;
+padding: 15px;
+transition: background 0.3s;
+}
+
+#links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#links a:hover{
+    background: var(--highlight-color);
+    
+}
+
+:root {
+    --text-color: white;
+    --bg-url: url(./assets/bgmobile.jpg);
+    --surface-color: rgba(255, 255, 255, 0.1);
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --surface-hover: rgba(255, 255, 255, 0.05);
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --botao-bg-url: url(./assets/botaodark.svg);
+    --ativar-botao: 
+}
+
+.light{
+    --text-color:black;
+    --bg-url: url(./assets/bgmobilelight.jpg);
+    --surface-color: rgba(0, 0, 0, 0.05);
+    --stroke-color: rgba(0, 0, 0, 0.5);
+    --surface-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color:rgba(0, 0, 0, 0.1);
+    --botao-bg-url: url(./assets/botaolight.svg);
+}
+
+.rodape p
+{
+    text-align: center;
+    color: rgb(217, 180, 255);
+    font-size: 15px;
+      
+}
+
