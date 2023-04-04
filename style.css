@@ -16,7 +16,8 @@ body * {
 
 
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 588p
     margin: auto;
     padding: 0 24px;
     
@@ -59,9 +60,7 @@ margin-top: 8px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 1;
-   
-    
+    z-index: 1;   
 }
 
 #botao span
@@ -130,6 +129,7 @@ transition: background 0.3s;
 }
 
 :root {
+    transition: 1s;
     --text-color: white;
     --bg-url: url(./assets/bgmobile.jpg);
     --surface-color: rgba(255, 255, 255, 0.1);
@@ -137,10 +137,10 @@ transition: background 0.3s;
     --surface-hover: rgba(255, 255, 255, 0.05);
     --highlight-color: rgba(255, 255, 255, 0.2);
     --botao-bg-url: url(./assets/botaodark.svg);
-    --ativar-botao: 
 }
 
 .light{
+    transition: 1s;
     --text-color:black;
     --bg-url: url(./assets/bgmobilelight.jpg);
     --surface-color: rgba(0, 0, 0, 0.05);

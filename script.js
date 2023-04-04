@@ -14,7 +14,6 @@ function toggleMode(){
         else{
         img.setAttribute("src", "./assets/Avatar.png")
         img.setAttribute("alt", altDark)
-        
     }
 
 }
