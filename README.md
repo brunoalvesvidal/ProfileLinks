@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-<h1 align="center">## 💻 Projeto </h1>
+## 💻 Projeto 
 
 Projeto de um cartão de visitas como um perfil, onde encontra-se minhas redes sociais e demais links.
 
@@ -40,4 +40,4 @@ Aprendi muito sobre controle de caixas, flex box etc. Sendo parte eseencial do p
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
-# ProfileLinks
+<h1 align="center"># ProfileLinks </h1>
