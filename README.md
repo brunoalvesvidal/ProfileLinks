@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 💻 Projeto
+<h1 align="center">## 💻 Projeto </h1>
 
 Projeto de um cartão de visitas como um perfil, onde encontra-se minhas redes sociais e demais links.
 
