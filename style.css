@@ -63,6 +63,19 @@ margin-top: 8px;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;   
+    animation: slideOut 0.4s forwards;
+}
+
+.light #botao button{
+    animation: slideIn 0.4s forwards;
+}
+
+#botao button:hover{
+    outline: 8px solid var(--highlight-color);
+}
+
+.light #botao button:hover{
+    outline: 8px solid var(--highlight-colorlight);
 }
 
 #botao span
@@ -75,9 +88,6 @@ margin-top: 8px;
     -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
 }
-    .light #botao button{
-        right:0;
-    }
 
 ul {
     list-style: none;
@@ -146,17 +156,20 @@ transition: background 0.3s;
     --surface-color: rgba(0, 0, 0, 0.05);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color:rgba(0, 0, 0, 0.1);
+    --highlight-colorlight:rgba(0, 0, 0, 0.1);
     --botao-bg-url: url(./assets/botaolight.svg);
 }
 
-.rodape p
-{
+.rodape p {
     text-align: center;
     color: rgb(217, 180, 255);
+    font-size: 15px; 
+}
+
+.light .rodape p {
+    color: black;
+    text-align: center;
     font-size: 15px;
-    
-      
 }
 
 @media (min-width:900px) {
@@ -167,5 +180,21 @@ transition: background 0.3s;
         --bg-url: url(./assets/bgDesktoplight.jpg);
     }
     }
-    
+
+@keyframes slideIn {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+@keyframes slideOut{
+    from {
+        left:50%;
+    }
+    to {
+        left: 0;
+    }
+}
 
