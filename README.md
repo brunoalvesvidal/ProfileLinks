@@ -35,7 +35,7 @@ Projeto de um cartão de visitas como um perfil, onde encontra-se minhas redes s
 
 Aprendi muito sobre controle de caixas, flex box etc. Sendo parte eseencial do projeto, a responsividade.
 
-- [Acesse o projeto finalizado, online](https://github.com/brunoalvesvidal/Projeto-Profile.git)
+- [Acesse o projeto finalizado, online](https://brunoalvesvidal.github.io/ProfileLinks/)
 
 ## :memo: Licença
 
