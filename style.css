@@ -136,8 +136,11 @@ transition: background 0.3s;
 }
 
 #links a:hover{
-    background: var(--highlight-color);
-    
+    background: var(--highlight-color);  
+}
+
+.light #links a:hover{
+    background: var(--highlight-colorlight);
 }
 
 :root {
