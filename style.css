@@ -1,57 +1,51 @@
-* {
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
+body 
+{
     transition: 1s;
     background: var(--bg-url) no-repeat top center/cover;
     height: 100vh;
 }
-
-body * {
+body * 
+{
     font-family: 'Inter', sans-serif;
     color:var(--text-color);
 }
-
-
-
-#container {
+#container 
+{
     width: 100%;
     max-width: 588px;
     margin: auto;
     padding: 0 24px;
-    
 }
-
-#profile {
+#profile 
+{
     text-align: center;
     padding: 24px;
     margin-top: 56px;
 }
-
-#profile img {
+#profile img 
+{
     display: block;
     width: 90px;
     margin: auto;
 }
-
-#profile p {
+#profile p 
+{
 font-weight: 400;
 line-height: 24px;
 margin-top: 8px;
 }
-
 #botao
 {
     position: relative;
     width: 64px;
     margin: 4px auto;
-    
-    
 }
-
 #botao button
 {
     width: 32px;
@@ -65,19 +59,18 @@ margin-top: 8px;
     z-index: 1;   
     animation: slideOut 0.4s forwards;
 }
-
-.light #botao button{
+.light #botao button
+{
     animation: slideIn 0.4s forwards;
 }
-
-#botao button:hover{
+#botao button:hover
+{
     outline: 8px solid var(--highlight-color);
 }
-
-.light #botao button:hover{
+.light #botao button:hover
+{
     outline: 8px solid var(--highlight-colorlight);
 }
-
 #botao span
 {
     display: block;
@@ -85,48 +78,46 @@ margin-top: 8px;
     height: 24px;
     background: var(--surface-color);
     border: var(--stroke-color);
-    -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
+    backdrop-filter: invert(80%);
 }
-
-ul {
+ul 
+{
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 12px;
     padding: 24px 0;
-
 }
-
-ul li a{
+ul li a
+{
     display: flex;
     justify-content: center;
     padding: 16px 16px;
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
     border-radius: 10px;
-
     text-decoration: none;
     transition: background 0.3s;
 }
-
-ul li a:hover{
+ul li a:hover
+{
     background: var(--surface-hover);
     border: 1.5px solid var(--text-color);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
 }
-
-#links {
-display: flex;
-justify-content: center;   
-gap: 10px; 
-font-size: 24px;
-padding: 15px;
-transition: background 0.3s;
+#links 
+{
+    display: flex;
+    justify-content: center;   
+    gap: 10px; 
+    font-size: 24px;
+    padding: 15px;
+    transition: background 0.3s;
 }
-
-#links a{
+#links a
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,16 +125,16 @@ transition: background 0.3s;
     border-radius: 50%;
     transition: 0.3s;
 }
-
-#links a:hover{
+#links a:hover
+{
     background: var(--highlight-color);  
 }
-
-.light #links a:hover{
+.light #links a:hover
+{
     background: var(--highlight-colorlight);
 }
-
-:root {
+:root 
+{
     --text-color: white;
     --bg-url: url(./assets/bgmobile.jpg);
     --surface-color: rgba(255, 255, 255, 0.1);
@@ -152,8 +143,8 @@ transition: background 0.3s;
     --highlight-color: rgba(255, 255, 255, 0.2);
     --botao-bg-url: url(./assets/botaodark.svg);
 }
-
-.light {
+.light 
+{
     --text-color:black;
     --bg-url: url(./assets/bgmobilelight.jpg);
     --surface-color: rgba(0, 0, 0, 0.05);
@@ -162,29 +153,29 @@ transition: background 0.3s;
     --highlight-colorlight:rgba(0, 0, 0, 0.1);
     --botao-bg-url: url(./assets/botaolight.svg);
 }
-
-.rodape p {
+.rodape p 
+{
     text-align: center;
     color: rgb(217, 180, 255);
     font-size: 15px; 
 }
-
-.light .rodape p {
+.light .rodape p 
+{
     color: black;
     text-align: center;
     font-size: 15px;
 }
-
-@media (min-width:900px) {
-    :root {
+@media (min-width:900px) 
+{
+    :root{
         --bg-url: url(./assets/bgDesktop.jpg);
     }
     .light{
         --bg-url: url(./assets/bgDesktoplight.jpg);
     }
-    }
-
-@keyframes slideIn {
+}
+@keyframes slideIn 
+{
     from {
         left: 0;
     }
@@ -192,7 +183,8 @@ transition: background 0.3s;
         left: 50%;
     }
 }
-@keyframes slideOut{
+@keyframes slideOut
+{
     from {
         left:50%;
     }
