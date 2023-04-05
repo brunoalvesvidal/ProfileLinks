@@ -29,15 +29,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 💻 Projeto
+## 💻 Projeto 
 
 Projeto de um cartão de visitas como um perfil, onde encontra-se minhas redes sociais e demais links.
 
 Aprendi muito sobre controle de caixas, flex box etc. Sendo parte eseencial do projeto, a responsividade.
 
-- [Acesse o projeto finalizado, online](https://github.com/brunoalvesvidal/Projeto-Profile.git)
+- [Acesse o projeto finalizado, online](https://brunoalvesvidal.github.io/ProfileLinks/)
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
-# ProfileLinks
+<h1 align="center"># ProfileLinks </h1>
