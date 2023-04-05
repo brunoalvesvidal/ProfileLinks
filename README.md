@@ -11,7 +11,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 </p>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000" target="_blank">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
 <br>
@@ -35,7 +35,7 @@ Projeto de um cartão de visitas como um perfil, onde encontra-se minhas redes s
 
 Aprendi muito sobre controle de caixas, flex box etc. Sendo parte eseencial do projeto, a responsividade.
 
-- [Acesse o projeto finalizado, online](https://brunoalvesvidal.github.io/ProfileLinks/)
+- [Acesse o projeto finalizado, online](https://brunoalvesvidal.github.io/ProfileLinks/  target="_blank")
 
 ## :memo: Licença
 
