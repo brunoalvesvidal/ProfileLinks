@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto de um cartão de visitas como um perfil, onde encontra-se minhas redes sociais e demais links.
 
-Aprendi muito sobre controle de caixas, flex box etc. Sendo parte eseencial do projeto, a responsividade.
+Aprendi muito sobre controle de caixas, flex box etc. Sendo parte essencial do projeto, a responsividade.
 
 - [Acesse o projeto finalizado, online](https://brunoalvesvidal.github.io/ProfileLinks/)
 
